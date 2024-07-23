@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "compra", url = "https://rgr3viiqdl8sikgv.public.blob.vercel-storage.com/clientes-Vz1U6aR3GTsjb3W8BRJhcNKmA81pVh.json")
+@FeignClient(value = "compra", url = "${api.compras}")
 public interface ComprasClienteFeignClient {
 
     @RequestMapping(method = RequestMethod.GET)
