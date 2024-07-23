@@ -2,7 +2,7 @@ Teste tecnico Digio
 
 Microserviço usando java 17 com spring
 
-Open Feign para consumo dos dados
+Open Feign para consumo dos dados. 
 Spring Rest para criação dos endpoints:
 
 Para rodar o serviço executar o arquivo DigioApplication
